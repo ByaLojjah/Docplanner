@@ -1,0 +1,50 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+ .header{
+    width: 100vw;
+    height: 100vh;
+ }
+
+
+.container{
+    width: 771;
+    height: 70;
+    align-items: center;
+}
+
+.navbar{
+    width: 100%;
+    position: absolute;
+}
+
+.navbar ul{
+    margin: 0 0 0 250px;
+    list-style: none;
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar li a{
+    width: 100px;
+    display: block;
+    font-family: "roboto";
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    margin-top: 20px ;
+    font-size: 15px;
+}
+.navbar li a:hover{
+    background:#00B39B;
+}
+
+.logo img{
+    position: absolute;
+    margin-left: 10px;
+  
+   
+}
