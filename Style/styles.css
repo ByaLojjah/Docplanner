@@ -247,10 +247,14 @@ main {
     margin-top: 3%;
 }
 
-.box a:visited {
-    color: #747474;
-    /* Gris */
+.lien-survol{
+    filter: grayscale(100%);
 }
+
+.lien-survol:hover{
+    filter: none;
+}
+
 
 .box1 {
     display: flex;
@@ -550,6 +554,9 @@ main {
     padding: 0;
     margin: 0;
     display: flex; 
+}
+.footer li{
+    color: #3D83DF;
 }
 
 .footer h6{
